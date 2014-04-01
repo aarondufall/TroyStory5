@@ -24,7 +24,7 @@
 		F5ED235818EB1230004ADA8F /* TroyStory5Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5ED235718EB1230004ADA8F /* TroyStory5Tests.m */; };
 		F5ED236218EB1265004ADA8F /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5ED236118EB1265004ADA8F /* Storyboard.storyboard */; };
 		F5ED236518EB17C7004ADA8F /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5ED236418EB17C7004ADA8F /* RootViewController.m */; };
-		F5ED236B18EB20DA004ADA8F /* Tojan.m in Sources */ = {isa = PBXBuildFile; fileRef = F5ED236A18EB20DA004ADA8F /* Tojan.m */; };
+		F5ED236B18EB20DA004ADA8F /* Trojan.m in Sources */ = {isa = PBXBuildFile; fileRef = F5ED236A18EB20DA004ADA8F /* Trojan.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,8 +59,8 @@
 		F5ED236118EB1265004ADA8F /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		F5ED236318EB17C7004ADA8F /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		F5ED236418EB17C7004ADA8F /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
-		F5ED236918EB20DA004ADA8F /* Tojan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Tojan.h; path = ../Tojan.h; sourceTree = "<group>"; };
-		F5ED236A18EB20DA004ADA8F /* Tojan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Tojan.m; path = ../Tojan.m; sourceTree = "<group>"; };
+		F5ED236918EB20DA004ADA8F /* Trojan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Trojan.h; path = ../Trojan.h; sourceTree = "<group>"; };
+		F5ED236A18EB20DA004ADA8F /* Trojan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Trojan.m; path = ../Trojan.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,8 +131,8 @@
 				F5ED233518EB1230004ADA8F /* Supporting Files */,
 				F5ED236318EB17C7004ADA8F /* RootViewController.h */,
 				F5ED236418EB17C7004ADA8F /* RootViewController.m */,
-				F5ED236918EB20DA004ADA8F /* Tojan.h */,
-				F5ED236A18EB20DA004ADA8F /* Tojan.m */,
+				F5ED236918EB20DA004ADA8F /* Trojan.h */,
+				F5ED236A18EB20DA004ADA8F /* Trojan.m */,
 			);
 			path = TroyStory5;
 			sourceTree = "<group>";
@@ -266,7 +266,7 @@
 				F5ED233F18EB1230004ADA8F /* AppDelegate.m in Sources */,
 				F5ED236518EB17C7004ADA8F /* RootViewController.m in Sources */,
 				F5ED233B18EB1230004ADA8F /* main.m in Sources */,
-				F5ED236B18EB20DA004ADA8F /* Tojan.m in Sources */,
+				F5ED236B18EB20DA004ADA8F /* Trojan.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

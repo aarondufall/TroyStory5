@@ -10,8 +10,8 @@
 #import <CoreData/CoreData.h>
 
 
-@interface Tojan : NSManagedObject
+@interface Trojan : NSManagedObject
 
 @property (nonatomic, retain) NSString * name;
-
+@property (nonatomic, retain) NSString * prowess;
 @end

@@ -7,9 +7,13 @@
 //
 
 #import "RootViewController.h"
+#import "Trojan.h"
 
 
 @interface RootViewController ()<UITableViewDataSource, UITableViewDelegate>
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *prowessTextfield;
+@property (strong, nonatomic) IBOutlet UITableView *tableView;
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *nameTextField;
 @property NSArray *trojans;
 @end
 
@@ -37,6 +41,7 @@
     if (trojans.count) {
         self.trojans = trojans;
     }
+    
 }
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section

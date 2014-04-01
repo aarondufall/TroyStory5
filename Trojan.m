@@ -6,11 +6,12 @@
 //  Copyright (c) 2014 Aaron Dufall. All rights reserved.
 //
 
-#import "Tojan.h"
+#import "Trojan.h"
 
 
-@implementation Tojan
+@implementation Trojan
 
 @dynamic name;
+@dynamic prowess;
 
 @end

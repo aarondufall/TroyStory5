@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="3401" systemVersion="13C64" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
-    <entity name="Tojan" representedClassName="Tojan" syncable="YES">
+    <entity name="Trojan" representedClassName="Trojan" syncable="YES">
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="prowess" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Tojan" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="Trojan" positionX="0" positionY="0" width="0" height="0"/>
     </elements>
 </model>

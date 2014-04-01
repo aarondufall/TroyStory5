@@ -54,6 +54,11 @@
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="s0z-0L-g0K"/>
                     </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="nameTextField" destination="DRd-cl-bhA" id="BWK-Nj-Vr1"/>
+                        <outlet property="prowessTextfield" destination="FLJ-fA-9o5" id="iGV-jA-6P5"/>
+                        <outlet property="tableView" destination="AYc-B7-ZMD" id="HqX-BO-evr"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hVl-wn-Urw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
