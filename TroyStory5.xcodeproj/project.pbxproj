@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5ED232D18EB1230004ADA8F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5ED232C18EB1230004ADA8F /* Foundation.framework */; };
+		F5ED232F18EB1230004ADA8F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5ED232E18EB1230004ADA8F /* CoreGraphics.framework */; };
+		F5ED233118EB1230004ADA8F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5ED233018EB1230004ADA8F /* UIKit.framework */; };
+		F5ED233318EB1230004ADA8F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5ED233218EB1230004ADA8F /* CoreData.framework */; };
+		F5ED233918EB1230004ADA8F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F5ED233718EB1230004ADA8F /* InfoPlist.strings */; };
+		F5ED233B18EB1230004ADA8F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5ED233A18EB1230004ADA8F /* main.m */; };
+		F5ED233F18EB1230004ADA8F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5ED233E18EB1230004ADA8F /* AppDelegate.m */; };
+		F5ED234218EB1230004ADA8F /* TroyStory5.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F5ED234018EB1230004ADA8F /* TroyStory5.xcdatamodeld */; };
+		F5ED234418EB1230004ADA8F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5ED234318EB1230004ADA8F /* Images.xcassets */; };
+		F5ED234B18EB1230004ADA8F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5ED234A18EB1230004ADA8F /* XCTest.framework */; };
+		F5ED234C18EB1230004ADA8F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5ED232C18EB1230004ADA8F /* Foundation.framework */; };
+		F5ED234D18EB1230004ADA8F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5ED233018EB1230004ADA8F /* UIKit.framework */; };
+		F5ED234E18EB1230004ADA8F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5ED233218EB1230004ADA8F /* CoreData.framework */; };
+		F5ED235618EB1230004ADA8F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F5ED235418EB1230004ADA8F /* InfoPlist.strings */; };
+		F5ED235818EB1230004ADA8F /* TroyStory5Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5ED235718EB1230004ADA8F /* TroyStory5Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F5ED234F18EB1230004ADA8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5ED232118EB1230004ADA8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5ED232818EB1230004ADA8F;
+			remoteInfo = TroyStory5;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F5ED232918EB1230004ADA8F /* TroyStory5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TroyStory5.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5ED232C18EB1230004ADA8F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F5ED232E18EB1230004ADA8F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F5ED233018EB1230004ADA8F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F5ED233218EB1230004ADA8F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F5ED233618EB1230004ADA8F /* TroyStory5-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TroyStory5-Info.plist"; sourceTree = "<group>"; };
+		F5ED233818EB1230004ADA8F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F5ED233A18EB1230004ADA8F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F5ED233C18EB1230004ADA8F /* TroyStory5-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TroyStory5-Prefix.pch"; sourceTree = "<group>"; };
+		F5ED233D18EB1230004ADA8F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F5ED233E18EB1230004ADA8F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F5ED234118EB1230004ADA8F /* TroyStory5.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TroyStory5.xcdatamodel; sourceTree = "<group>"; };
+		F5ED234318EB1230004ADA8F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F5ED234918EB1230004ADA8F /* TroyStory5Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TroyStory5Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5ED234A18EB1230004ADA8F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F5ED235318EB1230004ADA8F /* TroyStory5Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TroyStory5Tests-Info.plist"; sourceTree = "<group>"; };
+		F5ED235518EB1230004ADA8F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F5ED235718EB1230004ADA8F /* TroyStory5Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TroyStory5Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5ED232618EB1230004ADA8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5ED232F18EB1230004ADA8F /* CoreGraphics.framework in Frameworks */,
+				F5ED233318EB1230004ADA8F /* CoreData.framework in Frameworks */,
+				F5ED233118EB1230004ADA8F /* UIKit.framework in Frameworks */,
+				F5ED232D18EB1230004ADA8F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5ED234618EB1230004ADA8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5ED234B18EB1230004ADA8F /* XCTest.framework in Frameworks */,
+				F5ED234E18EB1230004ADA8F /* CoreData.framework in Frameworks */,
+				F5ED234D18EB1230004ADA8F /* UIKit.framework in Frameworks */,
+				F5ED234C18EB1230004ADA8F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5ED232018EB1230004ADA8F = {
+			isa = PBXGroup;
+			children = (
+				F5ED233418EB1230004ADA8F /* TroyStory5 */,
+				F5ED235118EB1230004ADA8F /* TroyStory5Tests */,
+				F5ED232B18EB1230004ADA8F /* Frameworks */,
+				F5ED232A18EB1230004ADA8F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5ED232A18EB1230004ADA8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5ED232918EB1230004ADA8F /* TroyStory5.app */,
+				F5ED234918EB1230004ADA8F /* TroyStory5Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5ED232B18EB1230004ADA8F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F5ED232C18EB1230004ADA8F /* Foundation.framework */,
+				F5ED232E18EB1230004ADA8F /* CoreGraphics.framework */,
+				F5ED233018EB1230004ADA8F /* UIKit.framework */,
+				F5ED233218EB1230004ADA8F /* CoreData.framework */,
+				F5ED234A18EB1230004ADA8F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F5ED233418EB1230004ADA8F /* TroyStory5 */ = {
+			isa = PBXGroup;
+			children = (
+				F5ED233D18EB1230004ADA8F /* AppDelegate.h */,
+				F5ED233E18EB1230004ADA8F /* AppDelegate.m */,
+				F5ED234318EB1230004ADA8F /* Images.xcassets */,
+				F5ED234018EB1230004ADA8F /* TroyStory5.xcdatamodeld */,
+				F5ED233518EB1230004ADA8F /* Supporting Files */,
+			);
+			path = TroyStory5;
+			sourceTree = "<group>";
+		};
+		F5ED233518EB1230004ADA8F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5ED233618EB1230004ADA8F /* TroyStory5-Info.plist */,
+				F5ED233718EB1230004ADA8F /* InfoPlist.strings */,
+				F5ED233A18EB1230004ADA8F /* main.m */,
+				F5ED233C18EB1230004ADA8F /* TroyStory5-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F5ED235118EB1230004ADA8F /* TroyStory5Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F5ED235718EB1230004ADA8F /* TroyStory5Tests.m */,
+				F5ED235218EB1230004ADA8F /* Supporting Files */,
+			);
+			path = TroyStory5Tests;
+			sourceTree = "<group>";
+		};
+		F5ED235218EB1230004ADA8F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5ED235318EB1230004ADA8F /* TroyStory5Tests-Info.plist */,
+				F5ED235418EB1230004ADA8F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5ED232818EB1230004ADA8F /* TroyStory5 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5ED235B18EB1230004ADA8F /* Build configuration list for PBXNativeTarget "TroyStory5" */;
+			buildPhases = (
+				F5ED232518EB1230004ADA8F /* Sources */,
+				F5ED232618EB1230004ADA8F /* Frameworks */,
+				F5ED232718EB1230004ADA8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TroyStory5;
+			productName = TroyStory5;
+			productReference = F5ED232918EB1230004ADA8F /* TroyStory5.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F5ED234818EB1230004ADA8F /* TroyStory5Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5ED235E18EB1230004ADA8F /* Build configuration list for PBXNativeTarget "TroyStory5Tests" */;
+			buildPhases = (
+				F5ED234518EB1230004ADA8F /* Sources */,
+				F5ED234618EB1230004ADA8F /* Frameworks */,
+				F5ED234718EB1230004ADA8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5ED235018EB1230004ADA8F /* PBXTargetDependency */,
+			);
+			name = TroyStory5Tests;
+			productName = TroyStory5Tests;
+			productReference = F5ED234918EB1230004ADA8F /* TroyStory5Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5ED232118EB1230004ADA8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Aaron Dufall";
+				TargetAttributes = {
+					F5ED234818EB1230004ADA8F = {
+						TestTargetID = F5ED232818EB1230004ADA8F;
+					};
+				};
+			};
+			buildConfigurationList = F5ED232418EB1230004ADA8F /* Build configuration list for PBXProject "TroyStory5" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F5ED232018EB1230004ADA8F;
+			productRefGroup = F5ED232A18EB1230004ADA8F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5ED232818EB1230004ADA8F /* TroyStory5 */,
+				F5ED234818EB1230004ADA8F /* TroyStory5Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5ED232718EB1230004ADA8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5ED233918EB1230004ADA8F /* InfoPlist.strings in Resources */,
+				F5ED234418EB1230004ADA8F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5ED234718EB1230004ADA8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5ED235618EB1230004ADA8F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5ED232518EB1230004ADA8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5ED234218EB1230004ADA8F /* TroyStory5.xcdatamodeld in Sources */,
+				F5ED233F18EB1230004ADA8F /* AppDelegate.m in Sources */,
+				F5ED233B18EB1230004ADA8F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5ED234518EB1230004ADA8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5ED235818EB1230004ADA8F /* TroyStory5Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5ED235018EB1230004ADA8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5ED232818EB1230004ADA8F /* TroyStory5 */;
+			targetProxy = F5ED234F18EB1230004ADA8F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F5ED233718EB1230004ADA8F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5ED233818EB1230004ADA8F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F5ED235418EB1230004ADA8F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5ED235518EB1230004ADA8F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5ED235918EB1230004ADA8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F5ED235A18EB1230004ADA8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5ED235C18EB1230004ADA8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TroyStory5/TroyStory5-Prefix.pch";
+				INFOPLIST_FILE = "TroyStory5/TroyStory5-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F5ED235D18EB1230004ADA8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TroyStory5/TroyStory5-Prefix.pch";
+				INFOPLIST_FILE = "TroyStory5/TroyStory5-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F5ED235F18EB1230004ADA8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TroyStory5.app/TroyStory5";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TroyStory5/TroyStory5-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TroyStory5Tests/TroyStory5Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F5ED236018EB1230004ADA8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TroyStory5.app/TroyStory5";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TroyStory5/TroyStory5-Prefix.pch";
+				INFOPLIST_FILE = "TroyStory5Tests/TroyStory5Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5ED232418EB1230004ADA8F /* Build configuration list for PBXProject "TroyStory5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5ED235918EB1230004ADA8F /* Debug */,
+				F5ED235A18EB1230004ADA8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5ED235B18EB1230004ADA8F /* Build configuration list for PBXNativeTarget "TroyStory5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5ED235C18EB1230004ADA8F /* Debug */,
+				F5ED235D18EB1230004ADA8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F5ED235E18EB1230004ADA8F /* Build configuration list for PBXNativeTarget "TroyStory5Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5ED235F18EB1230004ADA8F /* Debug */,
+				F5ED236018EB1230004ADA8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F5ED234018EB1230004ADA8F /* TroyStory5.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F5ED234118EB1230004ADA8F /* TroyStory5.xcdatamodel */,
+			);
+			currentVersion = F5ED234118EB1230004ADA8F /* TroyStory5.xcdatamodel */;
+			path = TroyStory5.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F5ED232118EB1230004ADA8F /* Project object */;
+}
