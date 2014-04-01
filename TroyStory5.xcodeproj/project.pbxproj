@@ -22,6 +22,9 @@
 		F5ED234E18EB1230004ADA8F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5ED233218EB1230004ADA8F /* CoreData.framework */; };
 		F5ED235618EB1230004ADA8F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F5ED235418EB1230004ADA8F /* InfoPlist.strings */; };
 		F5ED235818EB1230004ADA8F /* TroyStory5Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5ED235718EB1230004ADA8F /* TroyStory5Tests.m */; };
+		F5ED236218EB1265004ADA8F /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5ED236118EB1265004ADA8F /* Storyboard.storyboard */; };
+		F5ED236518EB17C7004ADA8F /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5ED236418EB17C7004ADA8F /* RootViewController.m */; };
+		F5ED236B18EB20DA004ADA8F /* Tojan.m in Sources */ = {isa = PBXBuildFile; fileRef = F5ED236A18EB20DA004ADA8F /* Tojan.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,11 @@
 		F5ED235318EB1230004ADA8F /* TroyStory5Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TroyStory5Tests-Info.plist"; sourceTree = "<group>"; };
 		F5ED235518EB1230004ADA8F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F5ED235718EB1230004ADA8F /* TroyStory5Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TroyStory5Tests.m; sourceTree = "<group>"; };
+		F5ED236118EB1265004ADA8F /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		F5ED236318EB17C7004ADA8F /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		F5ED236418EB17C7004ADA8F /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		F5ED236918EB20DA004ADA8F /* Tojan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Tojan.h; path = ../Tojan.h; sourceTree = "<group>"; };
+		F5ED236A18EB20DA004ADA8F /* Tojan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Tojan.m; path = ../Tojan.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,9 +125,14 @@
 			children = (
 				F5ED233D18EB1230004ADA8F /* AppDelegate.h */,
 				F5ED233E18EB1230004ADA8F /* AppDelegate.m */,
+				F5ED236118EB1265004ADA8F /* Storyboard.storyboard */,
 				F5ED234318EB1230004ADA8F /* Images.xcassets */,
 				F5ED234018EB1230004ADA8F /* TroyStory5.xcdatamodeld */,
 				F5ED233518EB1230004ADA8F /* Supporting Files */,
+				F5ED236318EB17C7004ADA8F /* RootViewController.h */,
+				F5ED236418EB17C7004ADA8F /* RootViewController.m */,
+				F5ED236918EB20DA004ADA8F /* Tojan.h */,
+				F5ED236A18EB20DA004ADA8F /* Tojan.m */,
 			);
 			path = TroyStory5;
 			sourceTree = "<group>";
@@ -230,6 +243,7 @@
 			files = (
 				F5ED233918EB1230004ADA8F /* InfoPlist.strings in Resources */,
 				F5ED234418EB1230004ADA8F /* Images.xcassets in Resources */,
+				F5ED236218EB1265004ADA8F /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,7 +264,9 @@
 			files = (
 				F5ED234218EB1230004ADA8F /* TroyStory5.xcdatamodeld in Sources */,
 				F5ED233F18EB1230004ADA8F /* AppDelegate.m in Sources */,
+				F5ED236518EB17C7004ADA8F /* RootViewController.m in Sources */,
 				F5ED233B18EB1230004ADA8F /* main.m in Sources */,
+				F5ED236B18EB20DA004ADA8F /* Tojan.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
